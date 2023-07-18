@@ -1,0 +1,53 @@
+{
+  "name": "react-next-opt",
+  "version": "1.0.1",
+  "description": "A React component for implementing a One-Time Password (OTP) input in Next.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "css": "npx tailwindcss -i ./src/globals.css -o ./dist/globals.css",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "passcode",
+    "OTP",
+    "one-time password",
+    "input",
+    "component"
+  ],
+  "author": "Bradley Dirheimer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirheimerb/react-input-otp.git"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.4",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.26",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "printWidth": 90,
+    "tabWidth": 2,
+    "bracketSameLine": true
+  },
+  "bugs": {
+    "url": "https://github.com/dirheimerb/react-input-otp/issues"
+  },
+  "homepage": "https://github.com/dirheimerb/react-input-otp#readme"
+}
